@@ -1,0 +1,185 @@
+body {
+  background-image: url('https://i2.wp.com/hipertextual.com/wp-content/uploads/2016/07/landscape-1433777123-hogwarts-school-of-witchcraft-and-wizardry-harry-potter-movie-hd-wallpaper-1920x1080-4707.jpg?w=1600&ssl=1');
+  height: 100vh;
+  background-size: cover;
+  width: 100vw;
+  min-width: 100%; 
+  min-height: 100%;
+
+}
+
+.container {                             
+  content: '';
+  display: block;
+  clear: both;
+
+  color: yellow;
+  margin-top: 20px;
+
+  
+
+}
+
+
+
+.grid-container{
+  color: yellow;
+  display: inline-grid;
+  font:  Trajan;
+  top: 0;
+  width: 100vw;
+  font-size: 18px;
+  word-spacing: normal;
+  grid-template-columns: 2fr 2fr 2fr;  /* adjustment */
+  grid-template-rows: 4fr 1fr;  /* adjustment */
+  
+}
+
+
+.item1{
+
+  font-family: 'Harry Potter', sans-serif;
+  background-color: none;
+  color: yellow;
+  font-size: 40px;
+  text-align: center;
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:1;
+  margin: 0;
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+  
+
+}
+
+.item1:hover{
+  color: white;
+  text-shadow: 0 0 30px blue;
+}
+
+.item2{
+  font-family: 'Harry Potter', sans-serif;
+  color: yellow;
+  font-size: 20px;
+  text-align: center;
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:2;
+  grid-row-end:2;
+  margin: 0;
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+
+}
+
+.item2:hover{
+  color: white;
+  text-shadow: 0 0 30px blue;
+}
+
+.item3{
+  font-family: 'Harry Potter', sans-serif;
+  color: yellow;
+  font-size: 20px;
+  text-align: center;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:2;
+  margin: 0;
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+
+}
+
+.item3:hover{
+  color: white;
+  text-shadow: 0 0 30px blue;
+}
+
+.item4{
+  font-family: 'Harry Potter', sans-serif;
+  color: yellow;
+  font-size: 20px;
+  text-align: center;
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:2;
+  grid-row-end:2;
+  margin: 0;
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+}
+
+.item4:hover{
+  color: white;
+  text-shadow: 0 0 30px blue;
+}
+
+.hero {
+  display: block;
+  margin-top: 40px;
+  height: 50px;
+  font-family: 'Harry Potter', sans-serif;
+  color: yellow;
+  width: 100vw;
+  text-align: center;
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+}
+
+
+.hero:hover{
+  color: white;
+  text-shadow: 0 0 10px blue;
+}
+
+.busca {
+  display: block;
+  font-family: 'Harry Potter', sans-serif;
+  color: yellow;
+  position: relative;
+  top: 10px;
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+}
+
+.busca:hover{
+  color: white;
+  text-shadow: 0 0 10px blue;
+}
+
+.hogwarts {
+  color:inherit;
+}
+
+.form {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.jenson {
+  display: block;
+  margin: 0 auto;
+}
